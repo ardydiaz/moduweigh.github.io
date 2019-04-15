@@ -1,0 +1,235 @@
+body{
+  font:12px/16px "Arial","Georgia","Times",serif;
+  color:#000033;
+  background: #fff;
+}
+h2{
+  font-family: "Arial","Georgia","Times",serif;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-shadow: 1px 1px #fff;
+    color: #707891;
+}
+
+.wrapper{
+   -webkit-box-shadow: 0px -3px 9px -1px #ccc;
+   -moz-box-shadow: 0px -3px 9px -1px #ccc;
+   box-shadow: 0px -3px 9px -1px #ccc;
+   /* margin-bottom: 30px; */
+}
+
+/* HEADER */
+.header .head{
+    background: #fff url(../../assets/img/header/header-bg.png) repeat-x scroll left top;
+    height: 89px;
+    padding: 1px 10px;
+
+}
+.header .logo{
+  width: 59%;
+    margin-top: 0.5rem;
+}
+.header .wc-contact{
+  display: flex;
+  list-style: none;
+  margin-top: 2rem;
+  float: right;
+}
+.header .wc-contact > li{
+  display: flex;
+  padding: 0px 10px;
+}
+.header .wc-contact > li:nth-child(2) {
+    background:  url(../../assets/img/phone.png) repeat-x ;
+    width: 140px;
+    height: 30px;
+}
+.header .wc-contact > li:last-child .icon_mail{
+  width: 40px;
+  height: 33px;
+}
+.header .wc-contact > li p{
+   margin: 1rem;
+   font-size: 14px;
+}
+.header .wc-contact > li span{
+   text-align: center;
+   width: 100%;
+   margin-top: 9px;
+   color: #000;
+}
+/* MENU */
+.menu .nav-weigh{
+  height: 51px;
+  background: #d00000 url(../../assets/img/header/mainnav-bg.png) repeat-x scroll left top;
+  border-radius: 0;
+  border-color: #ce0000;
+  margin-bottom: 0px;
+}
+.menu .nav-weigh .navbar-nav>li>a {
+    color: #ffffff;
+    padding: 17px 40px;
+    font-size: 15px;
+}
+
+.home{
+  height: 33px;
+  background: #292f47 url(../../assets/img/secnav-bg.png) repeat-x scroll left top;
+}
+.home p{
+  color: #fff;
+  padding-top: 1rem;
+}
+#home a{
+  margin-top: 9px;
+    float: left;
+    display: block;
+    width: 30px;
+    height: 18px;
+  width: 30px;
+    height: 18px;
+    background: transparent url(../../assets/img/home-icon.gif) no-repeat scroll 15px 3px;
+}
+.home img{
+  float: left;
+    margin: 0px 8px 0 7px;
+}
+
+.content{
+    margin-bottom: 2.25rem;
+}
+.content h2{
+  background: transparent url(../../assets/img/horline.gif) repeat-x scroll left bottom;
+    padding-bottom: 15px;
+    margin-bottom: 13px;
+    margin-left: 1.25rem;
+}
+.content .btn-danger{
+  color: #fff;
+    background-color: #c40000;
+    border-color: #c40000;
+    padding: 2px 5px;
+    font-size: 11px;
+}
+
+.content_two{
+  padding: 1.25rem;
+  width: 100%;
+  background: #ececec;
+}
+.content_two h2{
+  background: transparent url(../../assets/img/horline.gif) repeat-x scroll left bottom;
+  padding-bottom: 15px;
+  margin-bottom: 13px;
+  margin-left: 1.25rem;
+}
+.content_two .btn-danger{
+  color: #fff;
+  background-color: #c40000;
+  border-color: #c40000;
+  padding: 2px 5px;
+  font-size: 11px;
+}
+
+.article{
+  background: #d00000 url(../../assets/img/article.png) no-repeat scroll right top;
+  padding: 2.15rem;
+}
+.article h1{
+    margin-bottom: 1.25rem;
+    margin-left: 1.25rem;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 0;
+}
+.article .btn-view{
+    margin: 0 auto;
+    display: block;
+    width: 98px;
+    padding: 5px 5px;
+    font-size: 12px;
+    border-color: #fff;
+    margin-top: 1rem;
+}
+.article .img-up figcaption{
+  background-color: #0000008f;
+}
+.article .img-up::before{
+  background-color: #00000082;
+}
+
+
+.footer{
+  background: #192035 url(../../assets/img/footer-top-bg.png) repeat-x scroll left top;
+  padding: 5.15rem;
+  color: #fff;
+}
+.footer h4{
+  margin: 0;
+  margin-bottom: 1rem;
+}
+.headqtr .headss {
+    list-style: none;
+    display: inline-block;
+    margin-top: 0;
+    margin: 0;
+    padding: 0;
+}
+.headqtr .headss >li {
+}
+.address .map-icons {
+    float: left;
+    color: #ff2121;
+    font-size: 18px;
+}
+.address .add-content {
+    margin: 0;
+    padding-left: 20px;
+    font-size: 13px;
+}
+.copy-right{
+   background: #ececec;
+}
+
+/*===========================
+     ABOUT US
+=============================*/
+.about-page{
+  padding: 1.15rem;
+  margin-bottom: 1.35rem;
+}
+.about-page h1{
+    background: transparent url(../../assets/img/horline.gif) repeat-x scroll left bottom;
+    padding-bottom: 12px;
+    margin: -5px 0 15px 0;
+    padding-right: 0;
+    line-height: 20px;
+    padding-top: 16px;
+    position: relative;
+    font-size: 16px;
+    padding-left: 2rem;
+}
+.about-page p{
+  padding: 1rem;
+  margin-bottom: 5px
+ 
+}
+
+
+
+
+
+
+
+
+ @media (min-width: 768px) {
+  .navbar .navbar-nav {
+      display: inline-block;
+      float: none;
+  }
+  .navbar .navbar-collapse {
+      text-align: center;
+  }
+} 
