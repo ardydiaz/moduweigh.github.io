@@ -1,12 +1,7 @@
 body{
   font:12px/16px "Arial","Georgia","Times",serif;
   color:#000033;
-  background: #fff;
-   background: url(../../assets/img/bg.png) no-repeat center; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: #242a40
 }
 h2{
   font-family: "Arial","Georgia","Times",serif;
@@ -18,10 +13,10 @@ h2{
 }
 
 .wrapper{
-   -webkit-box-shadow: 0px -3px 9px -1px #ccc;
-   -moz-box-shadow: 0px -3px 9px -1px #ccc;
-   box-shadow: 0px -3px 9px -1px #ccc;
-   background: #fff;
+      -webkit-box-shadow: 0px -3px 9px -1px #000;
+    -moz-box-shadow: 0px -3px 9px -1px #ccc;
+    box-shadow: 0px -3px 9px -1px #000;
+    background: #fff
 }
 
 /* HEADER */
@@ -221,11 +216,39 @@ h2{
   margin-bottom: 5px
  
 }
+/*===========================
+     Product
+=============================*/
+.tab-product{
+  margin-bottom: 5rem;
+}
+.tab-product .nav-stacked > li{
+  width: 200px;
+    background: #fff url(../../assets/img/subnav-btn.png) no-repeat scroll left top;
+}
+.tab-product .nav-pills>li.active>a,
+.tab-product .nav-pills>li.active>a:focus,
+.tab-product .nav-pills>li.active>a:hover{
+  background: transparent;
+}
 
-
-
-
-
+.tab-product .nav>li>a:focus, 
+.tab-product .nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent; 
+}
+.tab-product .tab-content {
+  border: 1px solid #e2e2e2;
+  padding: 1rem;
+}
+.tab-product .tab-content .thumbnail .caption p {
+   margin-bottom: 0;
+   text-align: center;
+}
+.tab-product .l-title{
+   text-align: center;
+   margin-bottom: 2rem;
+}
 
 
 
@@ -237,4 +260,29 @@ h2{
   .navbar .navbar-collapse {
       text-align: center;
   }
+
+   .brand-pills > li > a {
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
+      color: #fff;
+    }
+    
+    li.brand-nav.active a:after{
+      content: " ";
+      display: block;
+      width: 0;
+      height: 0;
+      border-top: 20px solid transparent;
+      border-bottom: 20px solid transparent;
+      border-left: 9px solid #1f2335;
+      position: absolute;
+      top: 50%;
+      margin-top: -20px;
+      left: 100%;
+      z-index: 2;
+    }
+
+
+
 } 
+

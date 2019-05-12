@@ -46,7 +46,7 @@
 			      <ul class="nav navbar-nav">
 			        <li><a href="index.php">Home</a></li>
 			        <li><a href="about.php">About Us</a></li>
-			        <li><a href="#">Products</a></li>
+			        <li><a href="product.php">Products</a></li>
 			        <li><a href="#">Industries</a></li>
 			        <li><a href="#">Resources</a></li>
 			        <li><a href="#">Contact Us</a></li>
